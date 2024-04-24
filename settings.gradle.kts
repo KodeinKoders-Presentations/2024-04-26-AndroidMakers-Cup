@@ -1,6 +1,5 @@
 
-// TODO: Change the name of your project here
-rootProject.name = "kodein-presentation-template"
+rootProject.name = "Pres-2024-04-26-AndroidMakers-Cup"
 
 pluginManagement {
     repositories {

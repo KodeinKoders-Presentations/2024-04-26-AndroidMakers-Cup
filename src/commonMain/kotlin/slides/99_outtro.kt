@@ -22,7 +22,7 @@ val outro by Slide {
     )
 
     Text(
-        text = kStyled { "${+m}Event${-m} - Date" },
+        text = kStyled { "${+m}Android Makers${-m} - 26/04/2024" },
         textAlign = TextAlign.Center,
         style = MaterialTheme.typography.subtitle2,
         fontWeight = FontWeight.Light
@@ -31,7 +31,7 @@ val outro by Slide {
     Spacer(Modifier.height(16.dp))
 
     Text(
-        text = "Presenter(s)",
+        text = "Salomon Brys & Romain Boisselle",
         textAlign = TextAlign.Center,
         style = MaterialTheme.typography.subtitle1,
         color = MaterialTheme.colors.primary

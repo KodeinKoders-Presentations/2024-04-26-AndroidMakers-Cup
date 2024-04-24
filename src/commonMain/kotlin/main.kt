@@ -2,13 +2,12 @@ import net.kodein.cup.Slides
 import net.kodein.cup.cupApplication
 import net.kodein.theme.cup.KodeinPresentation
 import net.kodein.theme.cup.slides.kodeinActivities
-import slides.intro
-import slides.outro
+import slides.*
 
 
 fun main() = cupApplication(
     // TODO: Change title
-    title = "Kodein Koders Presentation!"
+    title = "Introducing CuP!"
 ) {
     KodeinPresentation(
         slides = presentationSlides,
@@ -18,6 +17,10 @@ fun main() = cupApplication(
 // TODO: Write your own slides!
 val presentationSlides = Slides(
     intro,
+    simpleSlides,
+    sourceCodeSlides,
+    projectSlides,
+    slideConfigSlides,
     kodeinActivities,
     outro
 )

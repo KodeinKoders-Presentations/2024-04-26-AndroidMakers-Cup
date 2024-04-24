@@ -14,10 +14,6 @@ kotlin {
     sourceSets.commonMain {
         dependencies {
             implementation("net.kodein.themes:cup:2.0.0")
-
-            implementation(compose.material)
-            implementation("org.kodein.emoji:emoji-compose-m2:1.3.0")
-
             implementation("io.github.alexzhirkevich:qrose:1.0.1")
         }
         resources.srcDirs(resourceFiles.outputDir)
