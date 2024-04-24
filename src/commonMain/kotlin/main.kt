@@ -21,6 +21,8 @@ val presentationSlides = Slides(
     sourceCodeSlides,
     projectSlides,
     slideConfigSlides,
+    theme,
+    web,
     kodeinActivities,
     outro
 )
