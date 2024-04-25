@@ -28,8 +28,9 @@ import net.kodein.cup.sa.SourceCode
 import net.kodein.cup.sa.SourceCodeThemes
 import net.kodein.cup.sa.rememberSourceCode
 import net.kodein.cup.ui.styled
+import net.kodein.theme.compose.JetBrainsMono
+import net.kodein.theme.compose.JetBrainsMonoNL
 import net.kodein.theme.compose.m2.Link
-import net.kodein.theme.cup.JetBrainsMono
 import net.kodein.theme.cup.KodeinSourceCode
 import net.kodein.theme.cup.KodeinSourceCodeTheme
 import org.kodein.emoji.Emoji
