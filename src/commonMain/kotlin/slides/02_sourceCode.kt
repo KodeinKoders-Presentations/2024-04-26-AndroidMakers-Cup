@@ -10,7 +10,6 @@ import androidx.compose.material.Icon
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.outlined.ArrowUpward
 import androidx.compose.runtime.key
 import androidx.compose.ui.Alignment
@@ -29,7 +28,6 @@ import net.kodein.cup.sa.SourceCodeThemes
 import net.kodein.cup.sa.rememberSourceCode
 import net.kodein.cup.ui.styled
 import net.kodein.theme.compose.JetBrainsMono
-import net.kodein.theme.compose.JetBrainsMonoNL
 import net.kodein.theme.compose.m2.Link
 import net.kodein.theme.cup.KodeinSourceCode
 import net.kodein.theme.cup.KodeinSourceCodeTheme

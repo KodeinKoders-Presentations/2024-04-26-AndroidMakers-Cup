@@ -9,8 +9,6 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import net.kodein.cup.PreparedSlide
-import net.kodein.cup.Slide
-import net.kodein.cup.sa.SourceCode
 import net.kodein.cup.sa.rememberSourceCode
 import net.kodein.theme.cup.KodeinSourceCode
 

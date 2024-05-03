@@ -10,6 +10,31 @@ cup {
     targetWeb()
 }
 
+repositories {
+    mavenCentral()
+    google()
+    mavenLocal()
+    maven {
+        name = "GitHubPackages"
+        url = uri("https://maven.pkg.github.com/kodeinkoders/kodein-themes")
+        content {
+            includeGroup("net.kodein.themes")
+        }
+        credentials {
+            username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_ACTOR")
+            password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
+
+            if (username == null || password == null) {
+                println("WARNING: No GitHub credentials defined.")
+                println("WARNING: Please add the gpr.user and gpr.key properties in your \$HOME/.gradle/gradle.properties.")
+                println("WARNING: Do NOT add these properties into the project gradle.properties file (it should go in your HOME gradle.properties).")
+                println("WARNING: The gpr.user and gpr.key properties must correspond to a Github Classic Personal Access Token.")
+                println("WARNING: see https://docs.github.com/en/packages/learn-github-packages/about-permissions-for-github-packages#about-scopes-and-permissions-for-package-registries.")
+            }
+        }
+    }
+}
+
 kotlin {
     sourceSets.commonMain {
         dependencies {
